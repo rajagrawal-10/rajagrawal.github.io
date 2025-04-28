@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raj Agrawal</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* Reset basic styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
 
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #6c63ff;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    nav {
+      background: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 0.8rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #6c63ff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 700;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #4a43d8;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      animation: fadeIn 2s ease;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #6c63ff;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 1rem;
+    }
+
+    /* Fade In Animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Raj Agrawal</h1>
+  <p>Welcome to my personal website!</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I'm [Your Name], and I’m passionate about [your interests: e.g., technology, design, entrepreneurship]. 
+     I enjoy building, learning, and collaborating on exciting projects.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li><strong>Project 1:</strong> Short description of your project. Maybe a link too!</li>
+    <li><strong>Project 2:</strong> Short description of another project.</li>
+    <li><strong>Project 3:</strong> Something else you're proud of.</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+  <p>Connect with me on <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>.</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
